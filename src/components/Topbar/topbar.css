@@ -1,0 +1,8 @@
+.pb-topbar {
+  background-color: #fff;
+}
+
+.pb-topbar .ant-menu {
+  text-align: right;
+  text-transform: uppercase;
+}
