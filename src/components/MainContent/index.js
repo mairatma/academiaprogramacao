@@ -1,3 +1,4 @@
+import { Divider } from 'antd';
 import React from 'react'
 
 import Banner from '../Banner';
@@ -14,7 +15,9 @@ function MainContent() {
         <div className="pb-main__description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse interdum. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse interdum. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse interdum. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse interdum. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel.
         </div>
+        <Divider />
         <Bio />
+        <Divider />
         <CourseInterest />
       </div>
     </div>

@@ -1,9 +1,6 @@
-.pb-course-interest {
-  margin-top: 32px;
-}
-
-.pb-course {
- width: 400px;
+.pb-course-interest h2 {
+  font-size: 50px;
+  text-align: center;
 }
 
 .pb-course .ant-btn {

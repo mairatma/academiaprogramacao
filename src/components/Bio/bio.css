@@ -2,6 +2,14 @@
   margin-top: 32px;
 }
 
+.pb-bio .ant-card {
+  border: none;
+}
+
+.pb-bio .ant-card-body {
+  padding: 0;
+}
+
 .pb-bio__card {
   display: flex;
 }
