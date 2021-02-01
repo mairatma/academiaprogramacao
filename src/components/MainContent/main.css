@@ -1,4 +1,6 @@
-.pb-main__section {
+.pb-main__sections {
   font-size: 18px;
-  padding: 32px;
+  padding: 32px 0;
+  margin: auto;
+  max-width: 1200px;
 }

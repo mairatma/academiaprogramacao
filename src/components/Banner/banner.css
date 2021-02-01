@@ -5,13 +5,10 @@
 
 .pb-banner__title {
   color: white;
-  font-size: 35px;
+  font-family: "Luckiest Guy";
+  font-size: 90px;
+  line-height: 1;
+  margin-top: 25px;
   text-align: center;
-}
-
-.pb-banner p {
-  color: white;
-  font-size: 20px;
-  font-weight: 300;
-  margin-top: 24px;
+  text-transform: uppercase;
 }

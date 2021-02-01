@@ -7,8 +7,8 @@ function Topbar() {
   return (
     <Layout.Header className="pb-topbar">
       <Menu mode="horizontal">
-        <Menu.Item>Home</Menu.Item>
-        <Menu.Item>Cursos</Menu.Item>
+        <Menu.Item><a href="/">Home</a></Menu.Item>
+        <Menu.Item><a href="#cursos">Cursos</a></Menu.Item>
       </Menu>
     </Layout.Header>
   )

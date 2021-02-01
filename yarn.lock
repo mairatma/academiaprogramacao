@@ -1007,6 +1007,11 @@
     ts-node "^9"
     tslib "^2"
 
+"@fontsource/luckiest-guy@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/luckiest-guy/-/luckiest-guy-4.1.0.tgz#0db55831e81506e63386c0627f96079f478b9999"
+  integrity sha512-nCDvLR9P4sNIkdN6u16LIqXufBgW6h/SwCzgGyTJblWE47n5eEi8pS9XKAkPqKmVnhUW+vuszoZnams1HbhHTQ==
+
 "@graphql-tools/batch-execute@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@graphql-tools/batch-execute/-/batch-execute-7.0.0.tgz#e79d11bd5b39f29172f6ec2eafa71103c6a6c85b"

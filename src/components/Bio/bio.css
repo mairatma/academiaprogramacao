@@ -1,0 +1,16 @@
+.pb-bio {
+  margin-top: 32px;
+}
+
+.pb-bio__card {
+  display: flex;
+}
+
+.pb-bio__card .ant-avatar {
+  flex: 1;
+  height: 100%;
+}
+.pb-bio__card .ant-card-meta {
+  flex: 1;
+  margin-left: 32px;
+}
