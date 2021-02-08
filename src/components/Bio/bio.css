@@ -1,24 +1,21 @@
 .pb-bio {
+  align-items: center;
+  display: flex;
   margin-top: 32px;
 }
 
-.pb-bio .ant-card {
-  border: none;
+.pb-bio .ant-avatar {
+  height: 300px;
+  width: 100%;
 }
 
-.pb-bio .ant-card-body {
-  padding: 0;
-}
-
-.pb-bio__card {
-  display: flex;
-}
-
-.pb-bio__card .ant-avatar {
-  flex: 1;
-  height: 100%;
-}
-.pb-bio__card .ant-card-meta {
-  flex: 1;
+.pb-bio .pb-bio__text {
+  font-size: 16px;
+  font-weight: 300;
   margin-left: 32px;
+  text-align: center;
+}
+
+.pb-bio__name {
+  font-weight: 500;
 }
