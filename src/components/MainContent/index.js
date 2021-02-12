@@ -5,14 +5,14 @@ import Banner from '../Banner';
 import Bio from '../Bio';
 import CourseInterest from '../CourseInterest';
 
-import './main.css'
+import styles from './main.module.css'
 
 function MainContent() {
   return (
-    <div className="pb-main">
+    <div>
       <Banner />
-      <div className="pb-main__sections">
-        <div className="pb-main__description">
+      <div className={styles.sections}>
+        <div>
         <p>Com a Academia de Programação quero criar uma comunidade (física e virtual) dedicada ao estudo e à prática da programação. Estou convencido de que os benefícios deste estudo ainda não são plenamente reconhecidos e de que o ensino da programação será cada vez mais difundido nas escolas. Minha ideia é apenas acelerar este processo que já está em curso.</p>
 
         <p>O primeiro e mais óbvio benefício do estudo da programação é o financeiro. A indústria de software vem engolindo vários nichos do mercado global e tudo indica que ela continuará próspera pelas próximas décadas.</p>

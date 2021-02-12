@@ -5,17 +5,15 @@ import MainContent from '../components/MainContent'
 import Topbar from '../components/Topbar'
 
 import 'antd/dist/antd.css'
-import './page.css'
-
-const { Header, Content } = Layout
+import styles from './page.module.css'
 
 const IndexPage = () => {
   return (
-    <main className="pb-page">
+    <main>
       <title>Academia de Programacao</title>
-      <Layout className="pb-page__layout">
+      <Layout className={styles.layout}>
         <Topbar/>
-        <Content><MainContent /></Content>
+        <Layout.Content><MainContent /></Layout.Content>
       </Layout>
     </main>
   )

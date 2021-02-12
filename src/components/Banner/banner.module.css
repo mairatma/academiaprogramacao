@@ -1,9 +1,9 @@
-.pb-banner {
+.main {
   background-color: #000;
   padding: 64px;
 }
 
-.pb-banner__title {
+.title {
   color: white;
   font-family: "Luckiest Guy";
   font-size: 90px;
@@ -11,4 +11,10 @@
   margin-top: 25px;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 700px) {
+  .title {
+    font-size: 40px;
+  } 
 }

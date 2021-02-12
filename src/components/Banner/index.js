@@ -1,12 +1,12 @@
 import React from 'react'
 
 import "@fontsource/luckiest-guy"
-import './banner.css';
+import styles from './banner.module.css';
 
 const Banner = () => {
   return (
-    <div className="pb-banner">
-      <div className="pb-banner__title">
+    <div className={styles.main}>
+      <div className={styles.title}>
         Academia de Programação
       </div>
     </div>

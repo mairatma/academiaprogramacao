@@ -1,25 +1,20 @@
 {
-  "name": "academia-de-programacaoo",
+  "name": "academiaprogramacao",
   "version": "1.0.0",
   "private": true,
   "description": "Academia de Programação",
   "author": "Maira Bello",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next build && gh-pages -d public"
   },
   "dependencies": {
     "@fontsource/luckiest-guy": "^4.1.0",
     "ansi-regex": "^5.0.0",
     "antd": "^4.11.1",
-    "gatsby": "^2.26.1",
+    "next": "^10.0.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

@@ -1,21 +1,26 @@
-.pb-bio {
+.main {
   align-items: center;
   display: flex;
   margin-top: 32px;
 }
 
-.pb-bio .ant-avatar {
-  height: 300px;
+.imageContainer {
+  flex: 1;
+}
+
+.main :global(.ant-avatar) {
+  height: 100%;
   width: 100%;
 }
 
-.pb-bio .pb-bio__text {
+.text {
+  flex: 4;
   font-size: 16px;
   font-weight: 300;
   margin-left: 32px;
   text-align: center;
 }
 
-.pb-bio__name {
+.name {
   font-weight: 500;
 }

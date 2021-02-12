@@ -1,16 +1,16 @@
-import { Avatar } from 'antd';
+import { Avatar } from 'antd'
 import React from 'react'
 
-import pedroPhoto from './images/pedro.jpg';
-
-import './bio.css';
+import styles from './bio.module.css'
 
 const Bio = () => {
   return (
-    <div className="pb-bio">
-      <Avatar alt="Pedro Bello" src={pedroPhoto} />
-      <div className="pb-bio__text">
-        <span className="pb-bio__name">Pedro Bello</span> é formado em Engenharia da Computação pelo CIn-UFPE. Durante a graduação,
+    <div className={styles.main}>
+      <div className={styles.imageContainer}>
+        <Avatar alt="Pedro Bello" src="/images/pedro.png" />
+      </div>
+      <div className={styles.text}>
+        <span className={styles.name}>Pedro Bello</span> é formado em Engenharia da Computação pelo CIn-UFPE. Durante a graduação,
         participou de competições de programação, sendo duas vezes campeão nacional da Maratona de Programação da SBC
         (<a href="http://maratona.sbc.org.br/hist/2008/index.html">2008</a> e <a href="http://maratona.sbc.org.br/hist/2009/index.html">2009</a>)
         e uma vez campeão latino-americano no International Collegiate Programming Contest (2010). Após se formar, Pedro trabalhou

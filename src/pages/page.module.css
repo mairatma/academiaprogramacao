@@ -1,0 +1,4 @@
+.layout,
+.layout :global(.ant-layout-header) {
+  background-color: #fff;
+}
